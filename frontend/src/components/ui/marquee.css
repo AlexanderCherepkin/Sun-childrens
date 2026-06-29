@@ -1,0 +1,38 @@
+@keyframes marquee-left {
+  from { transform: translateX(0) }
+  to { transform: translateX(-100%) }
+}
+
+@keyframes marquee-right {
+  from { transform: translateX(-100%) }
+  to { transform: translateX(0) }
+}
+
+.animate-marquee-left {
+  animation: marquee-left var(--marquee-duration, 25s) linear infinite;
+}
+
+.animate-marquee-right {
+  animation: marquee-right var(--marquee-duration, 25s) linear infinite;
+}
+
+.marquee-root {
+  --marquee-duration: 25s;
+}
+
+.marquee-root[data-speed="slow"] {
+  --marquee-duration: 40s;
+}
+
+.marquee-root[data-speed="normal"] {
+  --marquee-duration: 25s;
+}
+
+.marquee-root[data-speed="fast"] {
+  --marquee-duration: 15s;
+}
+
+.group:hover .animate-marquee-left,
+.group:hover .animate-marquee-right {
+  animation-play-state: paused;
+}

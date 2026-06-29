@@ -1,0 +1,361 @@
+    0.000s loading,interactions             PageLoadMetrics.NavigationToLargestContentfulPaint dur=None
+      {'page_load': {'navigation_id': 4, 'url': 'http://localhost:3200/'}}
+    0.000s loading,interactions             PageLoadMetrics.NavigationToFirstContentfulPaint dur=None
+      {'page_load': {'navigation_id': 4, 'url': 'http://localhost:3200/'}}
+    0.000s blink.user_timing                First Contentful Paint                        dur=None
+    0.016s devtools.timeline                CommitLoad                                    dur=3.2e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'name': '', 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'url': 'http://localhost:3200/'}}
+    0.023s devtools.timeline                ParseHTML                                     dur=0.0067
+      {'beginData': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'sampleTraceId': 8502345356295654, 'startLine': 0, 'url': 'http://localhost:3200/'}, 'endData': {'endLine': 3}}
+    0.023s loading                          NavStartToLargestContentfulPaint::Invalidate::AllFrames::UKM dur=None
+      {'main_frame_tree_node_id': 2}
+    0.023s loading                          NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM dur=None
+      {'main_frame_tree_node_id': 2}
+    0.029s devtools.timeline                EvaluateScript                                dur=0.00023
+      {'data': {'columnNumber': 30604, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295686, 'url': 'http://localhost:3200/'}}
+    0.029s v8,devtools.timeline             v8.compile                                    dur=0.000139
+      {'data': {'columnNumber': 30604, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.030s devtools.timeline                EvaluateScript                                dur=7.1e-05
+      {'data': {'columnNumber': 30664, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295687, 'url': 'http://localhost:3200/'}}
+    0.030s v8,devtools.timeline             v8.compile                                    dur=5.7e-05
+      {'data': {'columnNumber': 30664, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.031s devtools.timeline                ParseHTML                                     dur=0.005287
+      {'beginData': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'sampleTraceId': 8502345356295709, 'startLine': 3, 'url': 'http://localhost:3200/'}, 'endData': {'endLine': 3}}
+    0.031s devtools.timeline                EvaluateScript                                dur=0.001576
+      {'data': {'columnNumber': 31275, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295710, 'url': 'http://localhost:3200/'}}
+    0.031s v8,devtools.timeline             v8.compile                                    dur=0.001496
+      {'data': {'columnNumber': 31275, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.033s devtools.timeline                EvaluateScript                                dur=0.000109
+      {'data': {'columnNumber': 113947, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295711, 'url': 'http://localhost:3200/'}}
+    0.033s v8,devtools.timeline             v8.compile                                    dur=9e-05
+      {'data': {'columnNumber': 113947, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.033s devtools.timeline                EvaluateScript                                dur=6.8e-05
+      {'data': {'columnNumber': 114609, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295704, 'url': 'http://localhost:3200/'}}
+    0.033s v8,devtools.timeline             v8.compile                                    dur=6e-05
+      {'data': {'columnNumber': 114609, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.033s devtools.timeline                EvaluateScript                                dur=0.001239
+      {'data': {'columnNumber': 116155, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295705, 'url': 'http://localhost:3200/'}}
+    0.033s v8,devtools.timeline             v8.compile                                    dur=0.00122
+      {'data': {'columnNumber': 116155, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.034s devtools.timeline                EvaluateScript                                dur=4.5e-05
+      {'data': {'columnNumber': 198827, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295706, 'url': 'http://localhost:3200/'}}
+    0.034s v8,devtools.timeline             v8.compile                                    dur=3.6e-05
+      {'data': {'columnNumber': 198827, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.034s devtools.timeline                EvaluateScript                                dur=3.3e-05
+      {'data': {'columnNumber': 199021, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295707, 'url': 'http://localhost:3200/'}}
+    0.034s v8,devtools.timeline             v8.compile                                    dur=2.5e-05
+      {'data': {'columnNumber': 199021, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=3.5e-05
+      {'data': {'columnNumber': 199216, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295700, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=2.5e-05
+      {'data': {'columnNumber': 199216, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=7.2e-05
+      {'data': {'columnNumber': 199421, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295701, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=6.5e-05
+      {'data': {'columnNumber': 199421, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=3.2e-05
+      {'data': {'columnNumber': 201183, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295702, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=2.4e-05
+      {'data': {'columnNumber': 201183, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=0.000143
+      {'data': {'columnNumber': 201579, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295703, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=0.00013
+      {'data': {'columnNumber': 201579, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=8.4e-05
+      {'data': {'columnNumber': 207091, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295696, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=7.6e-05
+      {'data': {'columnNumber': 207091, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=0.000126
+      {'data': {'columnNumber': 208642, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295697, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=0.000118
+      {'data': {'columnNumber': 208642, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=7.4e-05
+      {'data': {'columnNumber': 213892, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295698, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=6.7e-05
+      {'data': {'columnNumber': 213892, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=5.9e-05
+      {'data': {'columnNumber': 216092, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295699, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=5.3e-05
+      {'data': {'columnNumber': 216092, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=8.6e-05
+      {'data': {'columnNumber': 218081, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295724, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=7.6e-05
+      {'data': {'columnNumber': 218081, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=5.1e-05
+      {'data': {'columnNumber': 221635, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295725, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=4.5e-05
+      {'data': {'columnNumber': 221635, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=2.7e-05
+      {'data': {'columnNumber': 223301, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295726, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=1.9e-05
+      {'data': {'columnNumber': 223301, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.035s devtools.timeline                EvaluateScript                                dur=0.000129
+      {'data': {'columnNumber': 223432, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295727, 'url': 'http://localhost:3200/'}}
+    0.035s v8,devtools.timeline             v8.compile                                    dur=0.000121
+      {'data': {'columnNumber': 223432, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.036s devtools.timeline                EvaluateScript                                dur=5.4e-05
+      {'data': {'columnNumber': 228210, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295720, 'url': 'http://localhost:3200/'}}
+    0.036s v8,devtools.timeline             v8.compile                                    dur=4.7e-05
+      {'data': {'columnNumber': 228210, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.036s devtools.timeline                EvaluateScript                                dur=0.000109
+      {'data': {'columnNumber': 229340, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295721, 'url': 'http://localhost:3200/'}}
+    0.036s v8,devtools.timeline             v8.compile                                    dur=0.000101
+      {'data': {'columnNumber': 229340, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.036s devtools.timeline                EvaluateScript                                dur=6.7e-05
+      {'data': {'columnNumber': 233660, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295722, 'url': 'http://localhost:3200/'}}
+    0.036s v8,devtools.timeline             v8.compile                                    dur=6e-05
+      {'data': {'columnNumber': 233660, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.036s devtools.timeline                EvaluateScript                                dur=0.000125
+      {'data': {'columnNumber': 235908, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295723, 'url': 'http://localhost:3200/'}}
+    0.036s v8,devtools.timeline             v8.compile                                    dur=0.000115
+      {'data': {'columnNumber': 235908, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.036s devtools.timeline                EvaluateScript                                dur=9.2e-05
+      {'data': {'columnNumber': 240871, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 4, 'sampleTraceId': 8502345356295716, 'url': 'http://localhost:3200/'}}
+    0.036s v8,devtools.timeline             v8.compile                                    dur=8.5e-05
+      {'data': {'columnNumber': 240871, 'lineNumber': 4, 'notStreamedReason': 'inline script', 'streamed': False, 'url': 'http://localhost:3200/'}, 'fileName': 'http://localhost:3200/'}
+    0.038s devtools.timeline                ParseHTML                                     dur=1e-05
+      {'beginData': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'sampleTraceId': 8502345356295757, 'startLine': 3, 'url': 'http://localhost:3200/'}, 'endData': {'endLine': 3}}
+    0.041s loading                          NavStartToLargestContentfulPaint::Invalidate::AllFrames::UKM dur=None
+      {'main_frame_tree_node_id': 2}
+    0.041s loading                          NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM dur=None
+      {'main_frame_tree_node_id': 2}
+    0.061s devtools.timeline                RemoteFontLoaded                              dur=6e-06
+      {'name': 'Geist', 'url': 'http://localhost:3200/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2'}
+    0.064s devtools.timeline                RemoteFontLoaded                              dur=3e-06
+      {'name': 'Geist', 'url': 'http://localhost:3200/_next/static/media/8a480f0b521d4e75-s.p.1qq4vpdcun5oj.woff2'}
+    0.077s devtools.timeline                BeginRemoteFontLoad                           dur=0.000149
+      {'display': 'optional', 'id': 37, 'url': 'http://localhost:3200/_next/static/media/7178b3e590c64307-s.21jp631_3pja2.woff2'}
+    0.105s devtools.timeline                EvaluateScript                                dur=0.001331
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356295892, 'url': 'http://localhost:3200/_next/static/chunks/397a2njf9nckn.js'}}
+    0.105s v8,devtools.timeline             v8.compile                                    dur=0.000927
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/397a2njf9nckn.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/397a2njf9nckn.js'}
+    0.108s devtools.timeline                PrePaint                                      dur=0.000679
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.111s devtools.timeline                BeginRemoteFontLoad                           dur=0.000244
+      {'display': 'optional', 'id': 42, 'url': 'http://localhost:3200/_next/static/media/2a65768255d6b625-s.3u4lli0-axodc.woff2'}
+    0.136s devtools.timeline                PrePaint                                      dur=0.000251
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.137s devtools.timeline                PrePaint                                      dur=2.9e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.137s devtools.timeline                Paint                                         dur=0.000977
+      {'data': {'clip': [0, 0, 412, 0, 412, 7823, 0, 7823], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 3, 'nodeName': '#document', 'sampleTraceId': 8502345356295924}}
+    0.137s disabled-by-default-devtools.timeline PaintImage                                    dur=0.000117
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144.34375, 'isCSS': False, 'isPicture': False, 'loadingAttribute': '', 'nodeId': 8, 'nodeName': "IMG class='object-cover object-center'", 'srcHeight': 500, 'srcWidth': 180.069931030273
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 8, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'image_url': 'http://localhost:3200/_next/image?url=%2Fimages%2Fhero-poster.jpg&w=750&q=75', 'is_image': True, 'is_image_loaded': True, 'is_in_main_frame': True, 'is_in_outermos
+    0.137s disabled-by-default-devtools.timeline PaintImage                                    dur=1.1e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144, 'isCSS': True, 'nodeId': 9, 'nodeName': "DIV class='absolute inset-0'", 'srcHeight': 1144, 'srcWidth': 412, 'width': 412, 'x': 0, 'y': 96}}
+    0.137s disabled-by-default-devtools.timeline PaintImage                                    dur=1.2e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144, 'isCSS': True, 'nodeId': 10, 'nodeName': "DIV class='absolute inset-0'", 'srcHeight': 1144, 'srcWidth': 412, 'width': 412, 'x': 0, 'y': 96}}
+    0.137s devtools.timeline                Paint                                         dur=0.000249
+      {'data': {'clip': [-8388608, -8388608, 8388607, -8388608, 8388607, 8388607, -8388608, 8388607], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 5, 'nodeName': "DIV class='reveal'", 'sampleTraceId': 8502345356295925}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 11, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [23, 208, 393, 208, 393, 4
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 12, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [9, 492, 405, 492, 405, 64
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 13, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [11, 647, 401, 647, 401, 7
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 14, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [46, 792, 174, 792, 174, 8
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 15, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 16, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [264, 792, 342, 792, 342, 
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 17, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 18, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 19, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 20, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 21, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 22, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 23, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 24, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutFlexibleBox', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]
+    0.137s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 25, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [0, 0, 0, 0, 0, 0, 0, 0]}}
+    0.137s disabled-by-default-devtools.timeline PaintImage                                    dur=9e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 64, 'isCSS': True, 'nodeId': 26, 'nodeName': "HEADER id='main-header' class='fixed left-0 right-0 top-0 z-50 transition-all duration-300 bg-gradient-to-r from-[#FFF5B7] via-[#E6F980] to
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 27, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 28, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 29, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 30, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 31, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 32, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 33, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 34, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 35, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': True, 'object_name': 'LayoutSVGText', 'rect': [22, 15, 223, 15, 223, 52, 22
+    0.138s loading                          PaintTimingVisualizer::Viewport               dur=None
+      {'data': {'dpr': 1.75, 'viewport_rect': [0, 0, 412, 0, 412, 823, 0, 823]}}
+    0.142s devtools.timeline                RemoteFontLoaded                              dur=4e-06
+      {'name': 'Geist', 'url': 'http://localhost:3200/_next/static/media/7178b3e590c64307-s.21jp631_3pja2.woff2'}
+    0.143s devtools.timeline                EvaluateScript                                dur=0.001323
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356295965, 'url': 'http://localhost:3200/_next/static/chunks/0qzv2-jwr1zhz.js'}}
+    0.143s v8,devtools.timeline             v8.compile                                    dur=0.001212
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/0qzv2-jwr1zhz.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/0qzv2-jwr1zhz.js'}
+    0.143s disabled-by-default-devtools.timeline ImageDecodeTask                               dur=0.007372
+      {'pixelRefId': 46196686157744}
+    0.144s disabled-by-default-devtools.timeline Decode Image                                  dur=0.006116
+      {'imageType': 'avif'}
+    0.144s devtools.timeline                EvaluateScript                                dur=0.003554
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356295968, 'url': 'http://localhost:3200/_next/static/chunks/turbopack-0lq72uxhuhzfp.js'}}
+    0.144s v8,devtools.timeline             v8.compile                                    dur=0.000491
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/turbopack-0lq72uxhuhzfp.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/turbopack-0lq72uxhuhzfp.js'}
+    0.152s devtools.timeline                PrePaint                                      dur=0.00036
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.153s devtools.timeline                Paint                                         dur=0.000529
+      {'data': {'clip': [0, 0, 412, 0, 412, 7823, 0, 7823], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 3, 'nodeName': '#document', 'sampleTraceId': 8502345356296074}}
+    0.153s disabled-by-default-devtools.timeline PaintImage                                    dur=5.7e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144.34375, 'isCSS': False, 'isPicture': False, 'loadingAttribute': '', 'nodeId': 8, 'nodeName': "IMG class='object-cover object-center'", 'srcHeight': 500, 'srcWidth': 180.069931030273
+    0.153s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 8, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'image_url': 'http://localhost:3200/_next/image?url=%2Fimages%2Fhero-poster.jpg&w=750&q=75', 'is_image': True, 'is_image_loaded': True, 'is_in_main_frame': True, 'is_in_outermos
+    0.153s disabled-by-default-devtools.timeline PaintImage                                    dur=7e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144, 'isCSS': True, 'nodeId': 9, 'nodeName': "DIV class='absolute inset-0'", 'srcHeight': 1144, 'srcWidth': 412, 'width': 412, 'x': 0, 'y': 96}}
+    0.153s disabled-by-default-devtools.timeline PaintImage                                    dur=5e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144, 'isCSS': True, 'nodeId': 10, 'nodeName': "DIV class='absolute inset-0'", 'srcHeight': 1144, 'srcWidth': 412, 'width': 412, 'x': 0, 'y': 96}}
+    0.153s devtools.timeline                Paint                                         dur=0.00014
+      {'data': {'clip': [-8388608, -8388608, 8388607, -8388608, 8388607, 8388607, -8388608, 8388607], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 5, 'nodeName': "DIV class='reveal'", 'sampleTraceId': 8502345356296075}}
+    0.153s disabled-by-default-devtools.timeline PaintImage                                    dur=1.3e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 64, 'isCSS': True, 'nodeId': 26, 'nodeName': "HEADER id='main-header' class='fixed left-0 right-0 top-0 z-50 transition-all duration-300 bg-gradient-to-r from-[#FFF5B7] via-[#E6F980] to
+    0.154s devtools.timeline                RemoteFontLoaded                              dur=2e-06
+      {'name': 'Playfair-Display', 'url': 'http://localhost:3200/_next/static/media/2a65768255d6b625-s.3u4lli0-axodc.woff2'}
+    0.154s devtools.timeline                EvaluateScript                                dur=0.000611
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356296084, 'url': 'http://localhost:3200/_next/static/chunks/15wzgpe38xtk1.js'}}
+    0.154s v8,devtools.timeline             v8.compile                                    dur=0.000467
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/15wzgpe38xtk1.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/15wzgpe38xtk1.js'}
+    0.155s devtools.timeline                EvaluateScript                                dur=0.000944
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356296080, 'url': 'http://localhost:3200/_next/static/chunks/3dcj45jdd0v6i.js'}}
+    0.155s v8,devtools.timeline             v8.compile                                    dur=0.000862
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/3dcj45jdd0v6i.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/3dcj45jdd0v6i.js'}
+    0.156s devtools.timeline                EvaluateScript                                dur=0.000682
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356296108, 'url': 'http://localhost:3200/_next/static/chunks/3-dnys27b1yb1.js'}}
+    0.156s v8,devtools.timeline             v8.compile                                    dur=0.000607
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/3-dnys27b1yb1.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/3-dnys27b1yb1.js'}
+    0.157s devtools.timeline                EvaluateScript                                dur=0.002764
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356296104, 'url': 'http://localhost:3200/_next/static/chunks/039r0e9gkoh10.js'}}
+    0.157s v8,devtools.timeline             v8.compile                                    dur=0.002596
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/039r0e9gkoh10.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/039r0e9gkoh10.js'}
+    0.160s devtools.timeline                EvaluateScript                                dur=0.000606
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356296100, 'url': 'http://localhost:3200/_next/static/chunks/1kr2fccsc5y4x.js'}}
+    0.160s v8,devtools.timeline             v8.compile                                    dur=0.000511
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/1kr2fccsc5y4x.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/1kr2fccsc5y4x.js'}
+    0.160s devtools.timeline                EvaluateScript                                dur=0.036835
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356296096, 'url': 'http://localhost:3200/_next/static/chunks/2ub68jkaxlr8s.js'}}
+    0.160s v8,devtools.timeline             v8.compile                                    dur=0.004942
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/2ub68jkaxlr8s.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/2ub68jkaxlr8s.js'}
+    0.169s disabled-by-default-devtools.timeline ImageDecodeTask                               dur=8e-06
+      {'pixelRefId': 46196686173008}
+    0.175s loading,interactions             PageLoad.PaintTiming.LargestContentfulPaintCandidate dur=None
+      {'page_load': {'navigation_id': 4}}
+    0.175s loading,interactions             PageLoadMetrics.NavigationToFirstContentfulPaint dur=None
+    0.175s loading,rail,devtools.timeline   firstMeaningfulPaintCandidate                 dur=None
+      {'data': {'navigationId': '143875941066C11007590E825A82013E'}, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1'}
+    0.175s benchmark,loading                GlobalFirstContentfulPaint                    dur=None
+    0.175s loading,rail,devtools.timeline   firstContentfulPaint                          dur=None
+      {'data': {'navigationId': '143875941066C11007590E825A82013E'}, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1'}
+    0.175s loading,rail,devtools.timeline   firstPaint                                    dur=None
+      {'data': {'navigationId': '143875941066C11007590E825A82013E'}, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1'}
+    0.175s loading,rail,devtools.timeline   firstImagePaint                               dur=None
+      {'data': {'navigationId': '143875941066C11007590E825A82013E'}, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1'}
+    0.175s loading                          LargestTextPaint::Candidate                   dur=None
+      {'data': {'DOMNodeId': 11, 'candidateIndex': 1, 'frame_height': 288, 'frame_width': 370, 'frame_x': 23, 'frame_y': 208, 'isEmbeddedFrame': False, 'isMainFrame': True, 'isOutermostMainFrame': True, 'nodeName': "H1 class='hero-headline text-4xl font-se
+    0.175s loading,rail,devtools.timeline   largestContentfulPaint::Candidate             dur=None
+      {'data': {'candidateIndex': 1, 'isMainFrame': True, 'isOutermostMainFrame': True, 'navigationId': '143875941066C11007590E825A82013E', 'nodeId': 11, 'nodeName': "H1 class='hero-headline text-4xl font-semibold leading-tight text-white md:text-5xl lg:te
+    0.175s loading,rail,devtools.timeline   firstMeaningfulPaint                          dur=None
+      {'data': {'navigationId': '143875941066C11007590E825A82013E'}, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1'}
+    0.175s loading,rail,devtools.timeline   firstMeaningfulPaint                          dur=None
+      {'afterUserInput': 0, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1'}
+    0.175s blink.user_timing                First Contentful Paint                        dur=None
+    0.199s devtools.timeline                PrePaint                                      dur=0.00032
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.200s devtools.timeline                Paint                                         dur=0.000504
+      {'data': {'clip': [0, 0, 412, 0, 412, 7823, 0, 7823], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 3, 'nodeName': '#document', 'sampleTraceId': 8502345356296144}}
+    0.200s disabled-by-default-devtools.timeline PaintImage                                    dur=5.7e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144.34375, 'isCSS': False, 'isPicture': False, 'loadingAttribute': '', 'nodeId': 8, 'nodeName': "IMG class='object-cover object-center'", 'srcHeight': 500, 'srcWidth': 180.069931030273
+    0.200s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 8, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'image_url': 'http://localhost:3200/_next/image?url=%2Fimages%2Fhero-poster.jpg&w=750&q=75', 'is_image': True, 'is_image_loaded': True, 'is_in_main_frame': True, 'is_in_outermos
+    0.200s disabled-by-default-devtools.timeline PaintImage                                    dur=6e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144, 'isCSS': True, 'nodeId': 9, 'nodeName': "DIV class='absolute inset-0'", 'srcHeight': 1144, 'srcWidth': 412, 'width': 412, 'x': 0, 'y': 96}}
+    0.200s disabled-by-default-devtools.timeline PaintImage                                    dur=6e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 1144, 'isCSS': True, 'nodeId': 10, 'nodeName': "DIV class='absolute inset-0'", 'srcHeight': 1144, 'srcWidth': 412, 'width': 412, 'x': 0, 'y': 96}}
+    0.200s devtools.timeline                Paint                                         dur=0.000137
+      {'data': {'clip': [-8388608, -8388608, 8388607, -8388608, 8388607, 8388607, -8388608, 8388607], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 5, 'nodeName': "DIV class='reveal'", 'sampleTraceId': 8502345356296145}}
+    0.200s disabled-by-default-devtools.timeline PaintImage                                    dur=6e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'height': 64, 'isCSS': True, 'nodeId': 26, 'nodeName': "HEADER id='main-header' class='fixed left-0 right-0 top-0 z-50 transition-all duration-300 bg-gradient-to-r from-[#FFF5B7] via-[#E6F980] to
+    0.201s disabled-by-default-devtools.timeline ImageDecodeTask                               dur=1.2e-05
+      {'pixelRefId': 46196686173008}
+    0.207s devtools.timeline                PrePaint                                      dur=7e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.231s disabled-by-default-devtools.timeline ImageDecodeTask                               dur=7e-06
+      {'pixelRefId': 46196686173008}
+    0.232s disabled-by-default-devtools.timeline Decode Image                                  dur=0.000445
+      {'imageType': 'ico'}
+    0.232s disabled-by-default-devtools.timeline Decode Image                                  dur=0.000308
+      {'imageType': 'png'}
+    0.232s disabled-by-default-devtools.timeline Decode Image                                  dur=3.1e-05
+      {'imageType': 'ico'}
+    0.232s disabled-by-default-devtools.timeline Decode Image                                  dur=1.3e-05
+      {'imageType': 'ico'}
+    0.232s disabled-by-default-devtools.timeline Decode Image                                  dur=5e-06
+      {'imageType': 'ico'}
+    0.241s devtools.timeline                PrePaint                                      dur=9.3e-05
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.241s devtools.timeline                Paint                                         dur=6.6e-05
+      {'data': {'clip': [0, 0, 412, 0, 412, 7823, 0, 7823], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 3, 'nodeName': '#document', 'sampleTraceId': 8502345356294250}}
+    0.249s devtools.timeline                EvaluateScript                                dur=0.001071
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356294304, 'url': 'http://localhost:3200/_next/static/chunks/21j2jhz4fxq-k.js'}}
+    0.249s v8,devtools.timeline             v8.compile                                    dur=0.000196
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/21j2jhz4fxq-k.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/21j2jhz4fxq-k.js'}
+    0.251s devtools.timeline                EvaluateScript                                dur=0.000438
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356294329, 'url': 'http://localhost:3200/_next/static/chunks/1iokj8wq6y0jp.js'}}
+    0.251s v8,devtools.timeline             v8.compile                                    dur=0.000108
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/1iokj8wq6y0jp.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/1iokj8wq6y0jp.js'}
+    0.251s devtools.timeline                EvaluateScript                                dur=0.00026
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356294327, 'url': 'http://localhost:3200/_next/static/chunks/0r_u30ebo6bh-.js'}}
+    0.251s v8,devtools.timeline             v8.compile                                    dur=7.1e-05
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'streamed': True, 'url': 'http://localhost:3200/_next/static/chunks/0r_u30ebo6bh-.js'}, 'fileName': 'http://localhost:3200/_next/static/chunks/0r_u30ebo6bh-.js'}
+    0.365s loading                          NavStartToLargestContentfulPaint::Candidate::AllFrames::UKM dur=None
+      {'data': {'durationInMilliseconds': 175, 'inMainFrame': True, 'isAnimated': False, 'loadEndInMilliseconds': 0, 'loadStartInMilliseconds': 0, 'size': 106560, 'type': 'text'}, 'main_frame_tree_node_id': 2}
+    0.365s loading                          NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM dur=None
+      {'main_frame_tree_node_id': 2}
+    0.616s devtools.timeline                PrePaint                                      dur=0.000167
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    0.617s devtools.timeline                Paint                                         dur=0.000144
+      {'data': {'clip': [0, 0, 412, 0, 412, 7823, 0, 7823], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 3, 'nodeName': '#document', 'sampleTraceId': 8502345356294476}}
+    0.617s devtools.timeline                Paint                                         dur=8.2e-05
+      {'data': {'clip': [0, -654, 412, -654, 412, 169, 0, 169], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 39, 'nodeName': "DIV class='fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-white p-4 shadow-lg md:bottom-4 md
+    0.617s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 40, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutBlockFlow', 'rect': [36, 672, 338, 672, 338, 7
+    0.617s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 41, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutFlexibleBox', 'rect': [177, 778, 235, 778, 235
+    0.617s devtools.timeline                Paint                                         dur=2.4e-05
+      {'data': {'clip': [0, -742, 412, -742, 412, 81, 0, 81], 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'layerId': 0, 'nodeId': 42, 'nodeName': "DIV class='fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-white p-3 shadow-[0_-4px_6px_-1px_rg
+    0.617s loading                          PaintTimingVisualizer::LayoutObjectPainted    dur=None
+      {'data': {'dom_node_id': 43, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'is_aggregation_text': True, 'is_in_main_frame': True, 'is_in_outermost_main_frame': True, 'is_svg': False, 'object_name': 'LayoutFlexibleBox', 'rect': [131, 771, 281, 771, 281
+    0.797s devtools.timeline                PrePaint                                      dur=7e-06
+      {'data': {'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'isMainFrame': True, 'isOutermostMainFrame': True, 'page': 'CE14C42D7C6B3FEA8461438A2590CCB1'}}
+    1.623s loading                          NavStartToLargestContentfulPaint::Candidate::AllFrames::UKM dur=None
+      {'data': {'durationInMilliseconds': 175, 'inMainFrame': True, 'isAnimated': False, 'loadEndInMilliseconds': 0, 'loadStartInMilliseconds': 0, 'size': 106560, 'type': 'text'}, 'main_frame_tree_node_id': 2}
+    1.623s loading                          NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM dur=None
+      {'main_frame_tree_node_id': 2}
+    1.674s disabled-by-default-devtools.timeline EvaluateScript                                dur=0.000669
+    1.674s devtools.timeline                EvaluateScript                                dur=0.000158
+      {'data': {'columnNumber': 1, 'frame': 'CE14C42D7C6B3FEA8461438A2590CCB1', 'lineNumber': 1, 'sampleTraceId': 8502345356294749, 'url': ''}}
+    1.674s v8,devtools.timeline             v8.compile                                    dur=0.000103
+      {'data': {'columnNumber': 1, 'lineNumber': 1, 'notStreamedReason': 'inline script', 'streamed': False, 'url': ''}, 'fileName': ''}
+    1.675s disabled-by-default-devtools.timeline EvaluateScript                                dur=0.000596
+    2.853s disabled-by-default-devtools.timeline EvaluateScript                                dur=0.000814
